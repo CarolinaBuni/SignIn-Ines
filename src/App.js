@@ -19,9 +19,11 @@ import {
 import signInImage from "./assets/img/signInImage.png";
 import { FaApple, FaFacebook, FaGoogle } from "react-icons/fa";
 
+
+
 function SignIn() {
   // Chakra color mode
-  const titleColor = useColorModeValue("teal.300", "teal.200");
+  // const titleColor = useColorModeValue("teal.300", "teal.200");
   const textColor = useColorModeValue("gray.400", "white");
   const bgIcons = useColorModeValue("gray.700", "rgba(255, 255, 255, 0.5)");
 
